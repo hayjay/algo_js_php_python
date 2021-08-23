@@ -1,0 +1,18 @@
+{
+  "name": "everyli_technical_challenge",
+  "version": "1.0.0",
+  "description": "Module to reverse a binary file",
+  "main": "reverse_binary.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nurudeen Ajayi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  }
+}

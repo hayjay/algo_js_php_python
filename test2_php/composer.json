@@ -1,0 +1,23 @@
+{
+    "name": "nurudeenajayi/test2_php",
+    "description": "Everli Technical Challenge",
+    "authors": [
+        {
+            "name": "Nurudeen Ajayi",
+            "email": "ajayi.nurudeen.wale@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
